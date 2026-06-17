@@ -61,7 +61,7 @@ environment {
                 sh """
                 aws ecs update-service \
                   --cluster multi-ai-agent-cluster \
-                  --service multi-ai-agent-def-service-shqlo39p  \
+                  --service multi-ai-agent-def-service-a6dbk1yi  \
                   --force-new-deployment \
                   --region ${AWS_REGION}
                 """
